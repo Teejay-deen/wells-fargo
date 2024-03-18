@@ -6,7 +6,7 @@ import { GoSearch } from "react-icons/go";
 
 const Header = () => {
   return (
-    <header className='bg-red-600 py-6 px-6 mb-12 border-b'>
+    <header className='bg-red-600 py-6 px-6 border-b'>
         <div className='container mx-auto flex justify-between items-center"'>
             <div className='cursor-pointer'>
                <img src={Logo} alt="" />
@@ -26,7 +26,6 @@ const Header = () => {
                 </div>
             </div>
         </div>
-
     </header>
     
   )
